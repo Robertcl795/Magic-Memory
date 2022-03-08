@@ -1,0 +1,32 @@
+.card-item {
+  position: relative;
+}
+.card-item img.back {
+  background: radial-gradient(#e66465, #9198e5);
+  width: fill-available;
+  height: fill-available;
+  transition: all ease-in-out 0.2s;
+  transform: rotateY(0deg);
+  border-radius: 2rem;
+  border: 1px solid #fff;
+}
+
+.card-item img.front {
+  transform: rotateY(90deg);
+  position: absolute;
+  width: fill-available;
+  height: fill-available;
+  background: radial-gradient(#e66465, #9198e5);
+  transition: all ease-in-out 0.2s;
+  border-radius: 2rem;
+  border: 1px solid #fff;
+}
+
+.card-item .flipped img.front {
+    transition-delay: 0.2s;
+  transform: rotateY(0deg);
+}
+.card-item .flipped img.back {
+transition-delay: 0s;
+  transform: rotateY(90deg);
+}
