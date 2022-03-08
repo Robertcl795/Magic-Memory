@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Magic-Memory
+A small and simple React memory game
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
